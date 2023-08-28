@@ -8,12 +8,13 @@
 header { 
    background-color: #270066;
    text-align: center;
-   padding: 50px;
+   padding: 20px;
    box-shadow: 0px 0px;
    min-height: 150px;
 }
 
 #btnhome {
+    padding-top: 10px;
     padding-bottom: 30px;
 }
 
@@ -62,5 +63,52 @@ header {
     border-radius: 50px;
 }
 
+#camisasccp { 
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #4400B3;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(imagens/imagens/camisetacorinthians250.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset -5px 5px 20px 0px;
+    margin-left: 10px;
+}
 
+.btncomprar {
+    color: white;
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-bottom: 10px;
+    background-color: #8546EA;
+    box-shadow: -1px 3px 3px black;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.btncomprar > a { 
+    text-decoration: none;
+    color: white;
+}
+
+.btncomprar > a:hover { 
+    color: rgba(255, 255, 255, 0.494);
+}
+
+.btncomprar:hover { 
+    background-color: #270066;
+    color: rgba(255, 255, 255, 0.494);
+}
+
+footer { 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
 
