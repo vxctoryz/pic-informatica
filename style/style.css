@@ -53,29 +53,47 @@ header {
     border-radius: 50px;
 }
 
-#flu:hover { 
-    background-image: url(imagens/imagens/fluminense102.jpg);
-    border-radius: 50px;
-}
-
-#psg:hover { 
-    background-image: url(imagens/imagens/psg53.jpg);
-    border-radius: 50px;
-}
-
-#camisasccp { 
+.produto { 
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #4400B3;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     margin-top: 30px;
-    background-image: url(imagens/imagens/camisetacorinthians250.png);
     background-repeat: no-repeat;
     background-position: center center;
     box-shadow: inset -5px 5px 20px 0px;
     margin-left: 10px;
+}
+
+
+#camisetasccp { 
+    background-image: url(imagens/imagens/camisetacorinthians200.png);
+}
+
+#sccpchines { 
+    background-image: url(imagens/imagens/sccpchines200.png);
+}
+
+#sccpbranca { 
+    background-image: url(imagens/imagens/sccpbranca200.png);
+}
+
+#sccpneoq { 
+    background-image: url(imagens/imagens/sccpneo200.png);
+}
+
+#santoscb { 
+    background-image: url(imagens/imagens/santoscb200.png);
+}
+
+#santosfn { 
+    background-image: url(imagens/imagens/santosfn200.png);
+}
+
+#santoscl { 
+    background-image: url(imagens/imagens/classicasantos200.png);
 }
 
 .btncomprar {
@@ -85,15 +103,29 @@ header {
     padding-bottom: 10px;
     background-color: #8546EA;
     box-shadow: -1px 3px 3px black;
-    width: 180px;
+    width: 290px;
     border-radius: 10px;
     margin-left: 10px;
+    text-decoration: none;
+    
 }
 
-.btncomprar > a { 
-    text-decoration: none;
-    color: white;
+#btncomprar { 
+    background-color: transparent;
+    color: transparent;
+    padding: 10px 20px;
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
 }
+
+#btncomprar:hover { 
+    background-color: rgba(0, 0, 0, 0.211);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
 
 .btncomprar > a:hover { 
     color: rgba(255, 255, 255, 0.494);
@@ -104,6 +136,24 @@ header {
     color: rgba(255, 255, 255, 0.494);
 }
 
+.comprar { 
+    text-decoration: none;
+    color: transparent; 
+    width: 180px;
+
+}
+
+.btnsabermais { 
+    text-decoration: none;
+    color: transparent;
+}
+
+.btnsabermais:hover {
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
 footer { 
     background-color: black;
     color: white;
@@ -111,4 +161,6 @@ footer {
     padding: 10px;
     margin-top: 10px;
 }
+
+
 
